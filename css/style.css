@@ -417,3 +417,21 @@ body._lock {
     font-size: 16px;
   }
 }
+
+@media (max-width: 260px) {
+  .weather__city {
+    font-size: 25px;
+  }
+  .weather__icon {
+    position: relative;
+    left: 0;
+    top: -10px;
+  }
+}
+
+@media (max-height: 475px) {
+  .footer {
+    display: none;
+    overflow: none;
+  }
+}
