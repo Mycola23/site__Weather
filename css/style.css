@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background-color: #2b2727;
-  overflow: hidden;
+  overflow: auto;
 }
 
 body._lock {
@@ -266,7 +266,7 @@ body._lock {
 }
 
 .search__block {
-  padding: 0 0 30px 0;
+  padding: 0 5px 30px 5px;
 }
 
 .search__box {
@@ -277,7 +277,7 @@ body._lock {
 
 .search__box input {
   background-color: #2b2727;
-  color: #000;
+  color: #928b8b;
 }
 
 .search__input {
@@ -364,7 +364,7 @@ body._lock {
 
 .footer {
   margin: 10px 0 0 0;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   background: #2c5e20;
@@ -398,8 +398,22 @@ body._lock {
   margin: 0;
 }
 
+.message {
+  padding: 125px 15px 0 15px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.message p {
+  color: #b1a8a8;
+  font-size: 25px;
+}
+
 @media (max-width: 350px) {
   .search__input {
     width: 115px;
+  }
+  .message p {
+    font-size: 16px;
   }
 }
