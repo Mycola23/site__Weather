@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  background-color: #59bd41;
+  background-color: #2b2727;
   overflow: hidden;
 }
 
@@ -276,7 +276,7 @@ body._lock {
 }
 
 .search__box input {
-  background-color: #59bd41;
+  background-color: #2b2727;
   color: #000;
 }
 
