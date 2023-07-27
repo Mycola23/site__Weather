@@ -249,7 +249,7 @@ body._lock {
 }
 
 .weather__block {
-  margin: 100px 15px 40px 15px;
+  margin: 100px 100px 40px 100px;
   padding: 15px 15px 35px 15px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.849);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.849);
@@ -285,6 +285,7 @@ body._lock {
       -ms-flex: auto;
           flex: auto;
   height: 35px;
+  width: 90%;
   padding: 7px;
   border-radius: 15px;
   font-size: 20px;
@@ -299,7 +300,7 @@ body._lock {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #2c5e20;
+  background: inherit;
 }
 
 .search__button svg {
